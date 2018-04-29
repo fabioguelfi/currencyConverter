@@ -9,7 +9,7 @@ describe('MoedaService', () => {
     });
   });
 
-  it('should be created', inject([MoedaService], (service: MoedaService) => {
+  it('should ...', inject([MoedaService], (service: MoedaService) => {
     expect(service).toBeTruthy();
   }));
 });
