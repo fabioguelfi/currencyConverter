@@ -1,3 +1,4 @@
+import { ConversorService } from './../services/conversor.service';
 import { MoedaService } from './../services/moeda.service';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
@@ -13,7 +14,8 @@ describe('ConversorComponent', () => {
         ConversorComponent
       ],
       providers: [
-        MoedaService
+        MoedaService,
+        ConversorService
       ]
     })
       .compileComponents();
